@@ -1,0 +1,22 @@
+artifact_path: /workspaces/rp-codespaces/customer-risk-ml-system/mlruns/1/models/m-72330b23dcf54e62a06a84e893097c47/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-72330b23dcf54e62a06a84e893097c47
+model_size_bytes: 4843
+model_uuid: m-72330b23dcf54e62a06a84e893097c47
+prompts: null
+run_id: 077917bb19ba47109a140c83cc2480bd
+utc_time_created: '2026-01-08 13:23:33.232815'
