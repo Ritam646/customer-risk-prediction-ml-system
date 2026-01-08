@@ -6,9 +6,7 @@ Production-grade machine learning system to predict customer churn and risk scor
 - Python, Scikit-learn, XGBoost
 - MLflow (experiment tracking)
 - FastAPI (model serving)
+- Streamlit(UI)
 - GitHub Codespaces (DevContainer-based setup)
+- render(deployment)
 
-## How to Run
-1. Open repo in GitHub Codespaces
-2. Environment auto-configures
-3. Start development
